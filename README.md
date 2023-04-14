@@ -1,7 +1,6 @@
 # Vue Boilerplate
 
-## Vue2 Boilerplate
-[Vue2 branch](https://github.com/Termonna/vueBoilerplate/tree/vue2-boilerplate)
+[Vue2 Boilerplate branch here](https://github.com/Termonna/vueBoilerplate/tree/vue2-boilerplate)
 
 ## Env:
 - node v18.16
