@@ -2,12 +2,16 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
-    "importHelpers": true,
+    "strict": true,
+    "jsx": "preserve",
     "moduleResolution": "node",
     "experimentalDecorators": true,
+    "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "useDefineForClassFields": true,
     "sourceMap": true,
     "baseUrl": ".",
     "types": [
