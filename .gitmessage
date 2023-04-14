@@ -1,0 +1,6 @@
+# []:
+
+## #PREFIX [WHERE]: WHAT
+## PREFIXES: [#FEAT, #FIX, #REF, #HOTFIX, #WIP]
+## Ex.: #FEAT [About Page]: BootstrapSlider replaces with noUiSlider
+## Comments started with ## will be removed from message
