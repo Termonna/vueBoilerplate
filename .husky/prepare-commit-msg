@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo "prepare-commit-msg"
+
+git config --local core.commentchar %
+
+sed -i'' "/^#\{2\}/d" $1
+sed -i'' "/^[[:space:]]*$/d" $1

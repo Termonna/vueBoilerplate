@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo "commit-msg"
+
+abuseCheck=$(head -n 1 $1)
+
+if [ "$abuseCheck" = "!Abuse" ]; then
+  echo "Got !Abuse flag. Skipping commit lint..."
+else
+  npx commitlint --config "commitlint.config.js" --verbose --edit $1
+fi

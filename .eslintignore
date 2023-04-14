@@ -1,0 +1,17 @@
+node_modules
+dist
+public
+src/shims-tsx.d.ts
+src/shims-vue.d.ts
+.browserslistrc
+.eslintignore
+.eslintrc
+.eslintrc.js
+.gitignore
+babel.config.js
+package.json
+package-lock.json
+README.md
+tsconfig.commonjs.json
+tsconfig.json
+vue.config.js
